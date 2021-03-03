@@ -17,13 +17,13 @@ namespace Praat_Met_De_Ai
 
             Console.WriteLine("Hallo, Ik ben een AI. En jou naam is?");
 
-            Console.ReadLine();
+            var name = Console.ReadLine();
 
-            Console.WriteLine("Cool! Wat is je favoriete kleur?");
+            Console.WriteLine($"Hey {name}. Wat is je favoriete kleur?");
 
-            Console.ReadLine();
+            var color = Console.ReadLine();
 
-            Console.WriteLine("Mijn favoriete kleur is ConsoleColor.Green;");
+            Console.WriteLine($"{color} dat noem ik nou eens een mooie kleur {name}. Mijn favoriete kleur is ConsoleColor.Green;");
 
             Console.WriteLine("Ik zou je is een verhaaltje vertellen over een ridder, EN JIJ MAG MEE HELPEN :)");
 
@@ -43,7 +43,7 @@ namespace Praat_Met_De_Ai
 
             Console.ReadLine();
 
-            Console.WriteLine("Dankje, dankje. Nou ik moet maar eens gaan. Doei doei!!!");
+            Console.WriteLine($"Dankje, dankje. Nou ik moet maar eens gaan {name}. Doei doei!!!");
 
             Console.WriteLine("Klik 2 keer op spatie om weg te gaan.");
 
