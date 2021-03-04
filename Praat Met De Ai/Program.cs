@@ -27,17 +27,23 @@ namespace Praat_Met_De_Ai
 
             Console.WriteLine("Ik zou je is een verhaaltje vertellen over een ridder, EN JIJ MAG MEE HELPEN :)");
 
-            Console.WriteLine("Een coole ridder genaamd . . .");
+            Console.WriteLine($"Noem een naam voor een ridder {name}.");
 
-            Console.ReadLine();
+            var ridder = Console.ReadLine();
 
-            Console.WriteLine("En zijn hulpje . . .");
+            Console.WriteLine("En nu eentje voor het hulpje van de ridder.");
 
-            Console.ReadLine();
+            var hulpje = Console.ReadLine();
 
-            Console.WriteLine("Werden op een dag opgegeten door een draak genaamd . . .");
+            Console.WriteLine("En als laatste eentje voor een DRAAK!?!?!??!!");
 
-            Console.ReadLine();
+            var draak = Console.ReadLine();
+
+            Console.WriteLine($"Een coole ridder genaamd {ridder}.");
+
+            Console.WriteLine($"En zijn hulpje {hulpje}");
+
+            Console.WriteLine($"Werden op een dag opgegeten door een draak genaamd {draak}");
 
             Console.Write("EINDE!!! Wat vond je ervan?");
 
@@ -45,10 +51,5 @@ namespace Praat_Met_De_Ai
 
             Console.WriteLine($"Dankje, dankje. Nou ik moet maar eens gaan {name}. Doei doei!!!");
 
-            Console.WriteLine("Klik 2 keer op spatie om weg te gaan.");
-
-            Console.ReadKey();
-
-        }
     }
 }
