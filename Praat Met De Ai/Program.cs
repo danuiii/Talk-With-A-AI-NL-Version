@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace Praat_Met_De_Ai
 {
